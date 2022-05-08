@@ -55,7 +55,7 @@ ROOT_URLCONF = 'wiki.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\moham\Documents\GitHub\Wiki\wiki\encyclopedia\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
