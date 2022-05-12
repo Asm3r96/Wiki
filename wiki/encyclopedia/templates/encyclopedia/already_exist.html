@@ -2,9 +2,18 @@
 
 {% block title %}
     {{entryTitle}}
+   
 {% endblock %}
 
 {% block body %}
-    {{entry|safe}}
+<style>
+    h1{
+        color:red
+    } 
+</style>
+  <h1>this page is already exist</h1><br>
+  <h2>
+    <a href="{% url 'index' %}">Check Here</a>
+</h2>
 
 {% endblock %}
